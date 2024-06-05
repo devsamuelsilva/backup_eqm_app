@@ -5,6 +5,7 @@ import './index.css'
 import { createBrowserRouter, RouterProvider, } from "react-router-dom";
 import Login from './pages/login/Login.jsx';
 import NewUser from './pages/newUser/NewUser.jsx';
+import './i18n/i18n.js';
 
 const router = createBrowserRouter([
   {
